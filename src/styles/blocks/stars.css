@@ -7,11 +7,15 @@
 
   width: 16px;
   height: 16px;
+  margin-right: 4px;
 
   background-image: url(/src/images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1)::before,
@@ -31,5 +35,4 @@
   background-image: url('/src/images/star-active.svg'); /* Estrela Amarela */
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
 }
